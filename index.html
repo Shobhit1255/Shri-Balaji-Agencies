@@ -1,144 +1,725 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Shri Balaji Agencies - Electrical products, lighting, wires, switches, fans, MCBs and more.">
-  <title>Shri Balaji Agencies | Electrical Solutions</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Shri Balaji Agencies - Electrical products, lighting, fans, wires, switches, MCBs and electrical fittings in Hapur.">
+
+    <title>Shri Balaji Agencies | Hapur</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header class="header">
-    <div class="container nav">
-      <a class="logo" href="#">
-        <span class="logo-mark">⚡</span>
-        <span><strong>Shri Balaji</strong><small>AGENCIES</small></span>
-      </a>
-      <button class="menu-btn" id="menuBtn">☰</button>
-      <nav id="navLinks">
-        <a href="#home">Home</a>
-        <a href="#products">Products</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-        <button class="nav-enquiry" onclick="openEnquiry()">Get Quote</button>
-      </nav>
-    </div>
-  </header>
 
-  <main>
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="container nav">
+
+            <a href="#home" class="logo">
+
+                <span class="logo-icon">⚡</span>
+
+                <span class="logo-text">
+                    <strong>Shri Balaji</strong>
+                    <small>AGENCIES</small>
+                </span>
+
+            </a>
+
+            <button class="menu-btn" id="menuBtn">
+                ☰
+            </button>
+
+            <nav id="navbar">
+
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+
+                <button
+                    class="quote-btn"
+                    onclick="openEnquiry()">
+                    Get Quote
+                </button>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
     <section class="hero" id="home">
-      <div class="hero-grid container">
-        <div class="hero-copy">
-          <span class="eyebrow">TRUSTED ELECTRICAL SOLUTIONS</span>
-          <h1>Powering every <span>connection.</span></h1>
-          <p>Quality electrical products for homes, shops, offices, contractors and every project in between.</p>
-          <div class="hero-actions">
-            <a class="btn primary" href="#products">Explore Products →</a>
-            <button class="btn secondary" onclick="openEnquiry()">Request a Quote</button>
-          </div>
-          <div class="trust-row">
-            <div><strong>100+</strong><span>Products</span></div>
-            <div><strong>10+</strong><span>Categories</span></div>
-            <div><strong>Reliable</strong><span>Service</span></div>
-          </div>
+
+        <div class="hero-slides">
+
+            <div
+                class="hero-slide active"
+                style="background-image:
+                linear-gradient(90deg,
+                rgba(5,12,25,.92),
+                rgba(5,12,25,.30)),
+                url('P1.jpeg');">
+            </div>
+
+            <div
+                class="hero-slide"
+                style="background-image:
+                linear-gradient(90deg,
+                rgba(5,12,25,.92),
+                rgba(5,12,25,.30)),
+                url('P2.jpeg');">
+            </div>
+
+            <div
+                class="hero-slide"
+                style="background-image:
+                linear-gradient(90deg,
+                rgba(5,12,25,.92),
+                rgba(5,12,25,.30)),
+                url('P3.jpeg');">
+            </div>
+
+            <div
+                class="hero-slide"
+                style="background-image:
+                linear-gradient(90deg,
+                rgba(5,12,25,.92),
+                rgba(5,12,25,.30)),
+                url('images/hero4.jpg');">
+            </div>
+
         </div>
-        <div class="hero-art">
-          <div class="electric-ring ring1"></div>
-          <div class="electric-ring ring2"></div>
-          <div class="bulb-icon">💡</div>
-          <div class="floating-card card-one">⚡ Quality Products</div>
-          <div class="floating-card card-two">🔌 Complete Solutions</div>
+
+
+        <div class="container hero-content">
+
+            <span class="eyebrow hero-eyebrow">
+                TRUSTED ELECTRICAL SOLUTIONS • HAPUR
+            </span>
+
+            <h1>
+                Powering every
+                <span>connection.</span>
+            </h1>
+
+            <p>
+                Quality electrical products for homes,
+                shops, offices, contractors and every
+                project in between.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a
+                    href="#products"
+                    class="btn btn-yellow">
+                    Explore Products →
+                </a>
+
+                <button
+                    class="btn btn-glass"
+                    onclick="openEnquiry()">
+                    Request a Quote
+                </button>
+
+            </div>
+
+
+            <div class="stats">
+
+                <div>
+                    <strong>100+</strong>
+                    <span>Products</span>
+                </div>
+
+                <div>
+                    <strong>10+</strong>
+                    <span>Categories</span>
+                </div>
+
+                <div>
+                    <strong>Hapur</strong>
+                    <span>Local Service</span>
+                </div>
+
+            </div>
+
         </div>
-      </div>
+
+
+        <div class="slider-dots">
+
+            <button
+                class="dot active"
+                onclick="showSlide(0)">
+            </button>
+
+            <button
+                class="dot"
+                onclick="showSlide(1)">
+            </button>
+
+            <button
+                class="dot"
+                onclick="showSlide(2)">
+            </button>
+
+            <button
+                class="dot"
+                onclick="showSlide(3)">
+            </button>
+
+        </div>
+
     </section>
 
-    <section class="categories section">
-      <div class="container">
-        <div class="section-heading">
-          <div><span class="eyebrow">SHOP BY CATEGORY</span><h2>Everything electrical, <span>under one roof.</span></h2></div>
+
+    <!-- ================= CATEGORIES ================= -->
+
+    <section class="section">
+
+        <div class="container">
+
+            <span class="eyebrow">
+                SHOP BY CATEGORY
+            </span>
+
+            <h2>
+                Everything electrical,
+                <span>under one roof.</span>
+            </h2>
+
+            <div
+                class="category-grid"
+                id="categoryGrid">
+            </div>
+
         </div>
-        <div class="category-grid" id="categoryGrid"></div>
-      </div>
+
     </section>
 
-    <section class="products section" id="products">
-      <div class="container">
-        <div class="section-heading products-head">
-          <div><span class="eyebrow">OUR PRODUCTS</span><h2>Find what you need.</h2></div>
-          <div class="controls">
-            <div class="search"><span>⌕</span><input id="searchInput" placeholder="Search products..."></div>
-            <select id="categoryFilter"><option value="All">All Categories</option></select>
-          </div>
+
+    <!-- ================= PRODUCTS ================= -->
+
+    <section
+        class="section products-section"
+        id="products">
+
+        <div class="container">
+
+            <div class="products-header">
+
+                <div>
+
+                    <span class="eyebrow">
+                        OUR PRODUCTS
+                    </span>
+
+                    <h2>
+                        Find what you need.
+                    </h2>
+
+                </div>
+
+
+                <div class="product-controls">
+
+                    <div class="search-box">
+
+                        <span>⌕</span>
+
+                        <input
+                            type="text"
+                            id="searchInput"
+                            placeholder="Search products...">
+
+                    </div>
+
+
+                    <select id="categoryFilter">
+
+                        <option value="all">
+                            All Categories
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+            <div
+                class="product-grid"
+                id="productGrid">
+            </div>
+
+
+            <div
+                class="no-products"
+                id="noProducts">
+
+                No matching products found.
+
+            </div>
+
         </div>
-        <div class="product-grid" id="productGrid"></div>
-        <p class="empty" id="emptyState" hidden>No products found. Try another search.</p>
-      </div>
+
     </section>
 
-    <section class="why section" id="about">
-      <div class="container why-grid">
-        <div>
-          <span class="eyebrow">WHY SHRI BALAJI AGENCIES</span>
-          <h2>A dependable partner for your electrical needs.</h2>
-          <p>From a single bulb to complete electrical fitting requirements, we aim to make sourcing simple, reliable and convenient.</p>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section
+        class="section about-section"
+        id="about">
+
+        <div class="container about-grid">
+
+            <div>
+
+                <span class="eyebrow">
+                    ABOUT SHRI BALAJI AGENCIES
+                </span>
+
+                <h2>
+                    Your local partner for
+                    <span>electrical needs.</span>
+                </h2>
+
+                <p>
+                    Shri Balaji Agencies provides a wide
+                    range of electrical and lighting products
+                    for homes, shops, offices, contractors
+                    and everyday electrical fitting
+                    requirements.
+                </p>
+
+            </div>
+
+
+            <div class="features">
+
+                <div class="feature">
+
+                    <div class="feature-icon">
+                        ✓
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Wide Product Range
+                        </strong>
+
+                        <p>
+                            Lighting, wires, fans,
+                            switches, protection and
+                            fitting materials.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="feature">
+
+                    <div class="feature-icon">
+                        ✓
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Easy Enquiry
+                        </strong>
+
+                        <p>
+                            Send your requirement
+                            directly through WhatsApp.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="feature">
+
+                    <div class="feature-icon">
+                        ✓
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Local & Accessible
+                        </strong>
+
+                        <p>
+                            Conveniently located at
+                            Garh Road, Hapur.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
-        <div class="benefits">
-          <div class="benefit"><span>✓</span><div><h3>Wide Product Range</h3><p>Lighting, wires, switches, fans, protection devices and more.</p></div></div>
-          <div class="benefit"><span>✓</span><div><h3>Quality First</h3><p>Products selected with practical everyday use and reliability in mind.</p></div></div>
-          <div class="benefit"><span>✓</span><div><h3>Quick Enquiry</h3><p>Send your requirement and get in touch with us directly.</p></div></div>
-        </div>
-      </div>
+
     </section>
+
+
+    <!-- ================= CTA ================= -->
 
     <section class="cta">
-      <div class="container cta-inner">
-        <div><span class="eyebrow">HAVE A REQUIREMENT?</span><h2>Tell us what you need.</h2><p>Send your product list and we'll help you with your requirement.</p></div>
-        <button class="btn light" onclick="openEnquiry()">Send Enquiry →</button>
-      </div>
+
+        <div class="container cta-content">
+
+            <div>
+
+                <span class="eyebrow">
+                    HAVE A REQUIREMENT?
+                </span>
+
+                <h2>
+                    Tell us what you need.
+                </h2>
+
+                <p>
+                    Send your product list and we'll
+                    help you with your requirement.
+                </p>
+
+            </div>
+
+
+            <button
+                class="btn btn-dark"
+                onclick="openEnquiry()">
+
+                Send Enquiry →
+
+            </button>
+
+        </div>
+
     </section>
 
-    <section class="contact section" id="contact">
-      <div class="container contact-grid">
-        <div>
-          <span class="eyebrow">GET IN TOUCH</span>
-          <h2>Let's connect.</h2>
-          <p>Replace the details below with your shop's actual information before publishing.</p>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section
+        class="section contact-section"
+        id="contact">
+
+        <div class="container contact-grid">
+
+            <div>
+
+                <span class="eyebrow">
+                    GET IN TOUCH
+                </span>
+
+                <h2>
+                    Let's
+                    <span>connect.</span>
+                </h2>
+
+                <p>
+                    Visit our shop or contact us directly
+                    for your electrical requirements.
+                </p>
+
+
+                <a
+                    class="maps-button"
+                    target="_blank"
+                    href="https://www.google.com/maps/search/?api=1&query=Krishna+Gali,+Garh+Road,+Hapur,+Uttar+Pradesh+245101">
+
+                    📍 Open in Google Maps
+
+                </a>
+
+            </div>
+
+
+            <div class="contact-cards">
+
+                <!-- PHONE -->
+
+                <a
+                    href="tel:+918630241223"
+                    class="contact-card">
+
+                    <div class="contact-icon">
+                        ☎
+                    </div>
+
+                    <div>
+
+                        <small>
+                            CALL US
+                        </small>
+
+                        <strong>
+                            +91 86302 41223
+                        </strong>
+
+                    </div>
+
+                </a>
+
+
+                <!-- WHATSAPP -->
+
+                <a
+                    href="https://wa.me/918630241223"
+                    target="_blank"
+                    class="contact-card">
+
+                    <div class="contact-icon">
+                        ◉
+                    </div>
+
+                    <div>
+
+                        <small>
+                            WHATSAPP
+                        </small>
+
+                        <strong>
+                            Chat with us
+                        </strong>
+
+                    </div>
+
+                </a>
+
+
+                <!-- ADDRESS -->
+
+                <div class="contact-card">
+
+                    <div class="contact-icon">
+                        📍
+                    </div>
+
+                    <div>
+
+                        <small>
+                            VISIT US
+                        </small>
+
+                        <strong>
+                            Krishna Gali, Garh Road,
+                            Hapur (245101),
+                            Uttar Pradesh, India
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
-        <div class="contact-cards">
-          <a href="tel:+91 9368812699" class="contact-card"><span>☎</span><div><small>CALL US</small><strong>+91 9837880842</strong></div></a>
-          <a href="https://wa.me/919368812699" target="_blank" class="contact-card"><span>◉</span><div><small>WHATSAPP</small><strong>Chat with us</strong></div></a>
-          <div class="contact-card"><span>⌖</span><div><small>VISIT US</small><strong>Your Shop Address, Hapur</strong></div></div>
-        </div>
-      </div>
+
     </section>
-  </main>
 
-  <footer><div class="container footer-inner"><span>© <span id="year"></span> Shri Balaji Agencies</span><span>Electrical • Lighting • Fittings</span></div></footer>
 
-  <div class="modal" id="productModal">
-    <div class="modal-box">
-      <button class="close" onclick="closeModal()">×</button>
-      <div id="modalContent"></div>
+    <!-- ================= OWNER SECTION ================= -->
+
+    <section class="owner-section">
+
+        <div class="container owner-content">
+
+            <div class="owner-heading">
+
+                <span class="eyebrow">
+                    ABOUT THE OWNER
+                </span>
+
+                <h2>
+                    Built on trust.
+                    <span>Driven by service.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="owners">
+
+                <div class="owner-card">
+
+                    <div class="owner-icon">
+                        SG
+                    </div>
+
+                    <div>
+
+                        <span>
+                            OWNER
+                        </span>
+
+                        <h3>
+                            Sanjay Garg
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <div class="owner-card">
+
+                    <div class="owner-icon">
+                        MG
+                    </div>
+
+                    <div>
+
+                        <span>
+                            OWNER
+                        </span>
+
+                        <h3>
+                            Manish Garg
+                        </h3>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="trust-line">
+
+                <span>
+                    YOUR TRUST
+                </span>
+
+                <strong>
+                    OUR SERVICE
+                </strong>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="container footer-content">
+
+            <strong>
+                ⚡ Shri Balaji Agencies
+            </strong>
+
+            <span>
+                Electrical • Lighting • Fittings
+            </span>
+
+            <span>
+                © <span id="year"></span>
+                Shri Balaji Agencies
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= ENQUIRY MODAL ================= -->
+
+    <div
+        class="modal"
+        id="enquiryModal">
+
+        <div class="modal-box">
+
+            <button
+                class="close-modal"
+                onclick="closeEnquiry()">
+
+                ×
+
+            </button>
+
+
+            <span class="eyebrow">
+                QUICK ENQUIRY
+            </span>
+
+            <h2>
+                Tell us your requirement.
+            </h2>
+
+
+            <form id="enquiryForm">
+
+                <input
+                    type="text"
+                    id="customerName"
+                    placeholder="Your name"
+                    required>
+
+
+                <input
+                    type="tel"
+                    id="customerPhone"
+                    placeholder="Phone number"
+                    required>
+
+
+                <textarea
+                    id="customerMessage"
+                    placeholder="What products do you need?"
+                    required></textarea>
+
+
+                <button
+                    type="submit"
+                    class="btn btn-yellow full-btn">
+
+                    Send on WhatsApp →
+
+                </button>
+
+            </form>
+
+        </div>
+
     </div>
-  </div>
 
-  <div class="modal" id="enquiryModal">
-    <div class="modal-box enquiry-box">
-      <button class="close" onclick="closeEnquiry()">×</button>
-      <span class="eyebrow">QUICK ENQUIRY</span>
-      <h2>Tell us your requirement.</h2>
-      <form id="enquiryForm">
-        <input id="customerName" required placeholder="Your name">
-        <input id="customerPhone" required placeholder="Phone number">
-        <textarea id="customerMessage" required rows="5" placeholder="Example: 20 LED bulbs, 10 switches, 2 rolls of wire..."></textarea>
-        <button class="btn primary" type="submit">Send on WhatsApp →</button>
-      </form>
-    </div>
-  </div>
 
-  <script src="script.js"></script>
+    <script src="script.js"></script>
+
 </body>
+
 </html>
